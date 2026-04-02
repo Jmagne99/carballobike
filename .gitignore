@@ -24,6 +24,12 @@
 .DS_Store
 *.pem
 
+# local npm cache / logs (no subir)
+.npm/
+
+# rutas locales fuera del proyecto
+Library/
+
 # debug
 npm-debug.log*
 yarn-debug.log*
