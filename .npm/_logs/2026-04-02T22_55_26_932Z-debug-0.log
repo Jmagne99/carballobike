@@ -1,0 +1,18 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/juanmagne/Desktop/Tablero Carballo/app/.npmrc
+5 silly config load:file:/Users/juanmagne/Desktop/Tablero Carballo/.npmrc
+6 silly config load:file:/usr/local/etc/npmrc
+7 verbose title npm exec next typegen
+8 verbose argv "exec" "next" "--" "typegen"
+9 verbose logfile logs-max:10 dir:/Users/juanmagne/Desktop/Tablero Carballo/.npm/_logs/2026-04-02T22_55_26_932Z-
+10 verbose logfile /Users/juanmagne/Desktop/Tablero Carballo/.npm/_logs/2026-04-02T22_55_26_932Z-debug-0.log
+11 silly logfile done cleaning log files
+12 verbose cwd /Users/juanmagne/Desktop/Tablero Carballo/app
+13 verbose os Darwin 24.6.0
+14 verbose node v22.18.0
+15 verbose npm  v10.9.3
+16 verbose exit 0
+17 info ok

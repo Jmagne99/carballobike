@@ -1,0 +1,56 @@
+0 verbose cli /usr/local/bin/node /usr/local/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.18.0
+3 silly config load:file:/usr/local/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/juanmagne/Desktop/Tablero Carballo/.npmrc
+5 silly config load:file:/usr/local/etc/npmrc
+6 verbose title npm create next-app@latest . --ts --eslint --tailwind --app --use-npm --import-alias @/* --yes
+7 verbose argv "create" "next-app@latest" "." "--" "--ts" "--eslint" "--tailwind" "--app" "--use-npm" "--import-alias" "@/*" "--yes"
+8 verbose logfile logs-max:10 dir:/Users/juanmagne/Desktop/Tablero Carballo/.npm/_logs/2026-04-02T22_54_36_154Z-
+9 verbose logfile /Users/juanmagne/Desktop/Tablero Carballo/.npm/_logs/2026-04-02T22_54_36_154Z-debug-0.log
+10 silly logfile done cleaning log files
+11 verbose stack Error: EPERM: operation not permitted, open '/usr/local/lib/node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify/dist/key/index.js'
+11 verbose stack     at Object.readFileSync (node:fs:441:20)
+11 verbose stack     at defaultLoadImpl (node:internal/modules/cjs/loader:1088:17)
+11 verbose stack     at loadSource (node:internal/modules/cjs/loader:1715:20)
+11 verbose stack     at Object..js (node:internal/modules/cjs/loader:1813:44)
+11 verbose stack     at Module.load (node:internal/modules/cjs/loader:1423:32)
+11 verbose stack     at Function._load (node:internal/modules/cjs/loader:1246:12)
+11 verbose stack     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+11 verbose stack     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+11 verbose stack     at Module.require (node:internal/modules/cjs/loader:1445:12)
+11 verbose stack     at require (node:internal/modules/helpers:135:16)
+12 error code EPERM
+13 error syscall open
+14 error path /usr/local/lib/node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify/dist/key/index.js
+15 error errno -1
+16 error Error: EPERM: operation not permitted, open '/usr/local/lib/node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify/dist/key/index.js'
+16 error     at Object.readFileSync (node:fs:441:20)
+16 error     at defaultLoadImpl (node:internal/modules/cjs/loader:1088:17)
+16 error     at loadSource (node:internal/modules/cjs/loader:1715:20)
+16 error     at Object..js (node:internal/modules/cjs/loader:1813:44)
+16 error     at Module.load (node:internal/modules/cjs/loader:1423:32)
+16 error     at Function._load (node:internal/modules/cjs/loader:1246:12)
+16 error     at TracingChannel.traceSync (node:diagnostics_channel:322:14)
+16 error     at wrapModuleLoad (node:internal/modules/cjs/loader:235:24)
+16 error     at Module.require (node:internal/modules/cjs/loader:1445:12)
+16 error     at require (node:internal/modules/helpers:135:16) {
+16 error   errno: -1,
+16 error   code: 'EPERM',
+16 error   syscall: 'open',
+16 error   path: '/usr/local/lib/node_modules/npm/node_modules/sigstore/node_modules/@sigstore/verify/dist/key/index.js'
+16 error }
+17 error
+17 error The operation was rejected by your operating system.
+17 error It is likely you do not have the permissions to access this file as the current user
+17 error
+17 error If you believe this might be a permissions issue, please double-check the
+17 error permissions of the file and its containing directories, or try running
+17 error the command again as root/Administrator.
+18 verbose cwd /Users/juanmagne/Desktop/Tablero Carballo
+19 verbose os Darwin 24.6.0
+20 verbose node v22.18.0
+21 verbose npm  v10.9.3
+22 verbose exit -1
+23 verbose code -1
+24 error A complete log of this run can be found in: /Users/juanmagne/Desktop/Tablero Carballo/.npm/_logs/2026-04-02T22_54_36_154Z-debug-0.log
